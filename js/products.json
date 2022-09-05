@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "data": "roll",
+        "title": "Филадельфия хит ролл",
+        "itemsInBox": 6,
+        "weight": 180,
+        "price": 310,
+        "imgSrc": "philadelfia.jpg"
+    },
+    { 
+        "id": 2,
+        "data": "roll",
+        "title": "Калифорния",
+        "itemsInBox": 6,
+        "weight": 205,
+        "price": 250,
+        "imgSrc": "california.jpg" 
+    },
+    {  
+        "id": 3,
+        "data": "roll",
+        "title": "Сливочный ролл с угрем",
+        "itemsInBox": 6,
+        "weight": 182,
+        "price": 230,
+        "imgSrc": "milk.jpg"
+    },
+    {   
+        "id": 4,
+        "data": "roll",
+        "title": "Бонито маки с угрем",
+        "itemsInBox": 6,
+        "weight": 230,
+        "price": 270,
+        "imgSrc":"bonito.jpg" 
+    },
+    {   
+        "id": 5,
+        "data": "roll",
+        "title": "Чиз маки с лососем",
+        "itemsInBox": 6,
+        "weight": 230,
+        "price": 300,
+        "imgSrc":"chizmaki.jpg" 
+    },
+    {   
+        "id": 6,
+        "data": "roll",
+        "title": "Филадельфия",
+        "itemsInBox": 6,
+        "weight": 230,
+        "price": 320,
+        "imgSrc":"geisha.jpg" 
+    }, {   
+        "id": 7,
+        "data": "roll",
+        "title": "Бонито маки с угрем",
+        "itemsInBox": 6,
+        "weight": 230,
+        "price": 270,
+        "imgSrc":"bonito.jpg" 
+    },
+    {   
+        "id": 8,
+        "data": "gukan",
+        "title": "Спайси сяке гункан",
+        "itemsInBox": 1,
+        "weight": 130,
+        "price": 120,
+        "imgSrc":"spicy-sake.jpg" 
+    },
+    {   
+        "id": 9,
+        "data": "gukan",
+        "title": "Чука",
+        "itemsInBox": 1,
+        "weight": 130,
+        "price": 110,
+        "imgSrc":"chuka.jpg" 
+    },
+    {   
+        "id": 10,
+        "data": "gukan",
+        "title": "Икура",
+        "itemsInBox": 1,
+        "weight": 130,
+        "price": 130,
+        "imgSrc":"ikura.jpg" 
+    },
+    {   
+        "id": 11,
+        "data": "gukan",
+        "title": "Тори унаги",
+        "itemsInBox": 1,
+        "weight": 130,
+        "price": 135,
+        "imgSrc":"tori.jpg" 
+    },
+    {   
+        "id": 12,
+        "data": "pizza",
+        "title": "Марагрита",
+        "itemsInBox": 1,
+        "weight": 500,
+        "price": 335,
+        "imgSrc":"margarita.jpg" 
+    },
+    {   
+        "id": 13,
+        "data": "pizza",
+        "title": "Барбекю",
+        "itemsInBox": 1,
+        "weight": 500,
+        "price": 405,
+        "imgSrc":"barbekue.jpg" 
+    },
+    {   
+        "id": 14,
+        "data": "pizza",
+        "title": "Баварская",
+        "itemsInBox": 1,
+        "weight": 430,
+        "price": 535,
+        "imgSrc":"bavaria.jpg" 
+    },
+    {   
+        "id": 15,
+        "data": "pizza",
+        "title": "Пепперони",
+        "itemsInBox": 1,
+        "weight": 430,
+        "price": 435,
+        "imgSrc":"peperoni.jpg" 
+    }
+    
+]

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+
+    
+    </script>
+    <title>Delivery</title>
+</head>
+<body>
+    <div class="site-container">
+        <div class="popup popup__check popup--hide">
+    <div class="popup__wrapper">
+        <div class="popup__inner">
+            <div class="popup__content">
+                <button class="menu__close btn-reset popup-close" aria-label="close popup">
+                    <span class="menu__close-line popup-close"></span>
+                    <span class="menu__close-line popup-close"></span>
+                </button>
+                <div class="popup__info">
+                    <h2 class="popup__title section-title">Заказ принят</h2>
+                    <p class="popup__descr">Мы уже начали готовить ваши роллы</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="menu popup-menu popup">
+    <button class=" menu__close btn-reset popup__btn-close popup-close" aria-label="close menu">
+        <span class="menu__close-line popup__btn-close popup-close"></span>
+        <span class="menu__close-line popup__btn-close popup-close"></span>
+    </button>
+    <nav class="menu__nav">
+        <ul class="menu__list">
+            <li class="menu__item"><a href="#" class="menu__link popup-close" data-scroll-to = "products">Роллы</a></li>
+            <li class="menu__item"><a href="#" class="menu__link popup-close" data-scroll-to = "about">О нас</a></li>
+            <li class="menu__item"><a href="#" class="menu__link popup-close" data-scroll-to = "contacts">Контакты</a></li>
+        </ul>
+        <a href="tel:+7999999999" class="phone-btn menu__phone">+7(999)990-09-99</a>
+        <ul class="social__list">
+            <li class="social__item">
+              <a href="#" target="_blank" class="social__link social__link--vk">
+              </a>
+            </li>
+            
+            <li class="social__item">
+              <a
+                href="#"
+                target="_blank"
+                class="social__link social__link--inst"
+                >
+                </a>
+            </li>
+            
+            <li class="social__item">
+              <a href="#" target="_blank" class="social__link social__link--fb"></a>
+            </li>
+          </ul>
+    </nav>
+</div>
+        <div class="menu__order  popup-order popup">
+    <button class="menuOrder__close btn-reset popup__btn-close popup-close" aria-label="close menu">
+        <span class="menuOrder__close-line popup__btn-close popup-close"></span>
+        <span class="menuOrder__close-line popup__btn-close popup-close"></span>
+    </button>
+    <h2 class="order__title-h2">Ваш заказ:</h2>
+    <div class="order-wrapper">
+        <div class="order__list"></div>
+        <div class="order__total-price"></div>
+        <form action="#" class="order__form">
+            <h3 class="order__title-h3">Заполните форму: </h3>
+            <input type="text" placeholder="Имя" required class="order__input">
+            <input type="text" placeholder="Телефон" required class="order__input">
+            <input type="text" placeholder="Адрес" required class="order__input">
+            <select name="payment" id="paymant" class="order__input">
+                <option value="Cash">Наличными</option>
+                <option value="Card">Картой</option>
+            </select>
+            <button type="submit" class="btn btn-reset order__btn">Отправить</button>
+        </form>
+    </div>
+</div>
+        <header class="header">
+    <div class="container header__container flex">
+        <a href="#" class="header-logo logo">
+            <img src="./img/logo.png" alt="logo" class="header-logo__img" ">
+            <h2 class="header-logo__name">СушиУши</h2>
+        </a>
+        <div class="header__end">
+            <ul class="header__list">
+                <li class="header__item"><a href="#" class="header__link" data-scroll-to = "products">Роллы</a></li>
+                <li class="header__item"><a href="#" class="header__link" data-scroll-to = "about">О нас</a></li>
+                <li class="header__item"><a href="#" class="header__link" data-scroll-to = "contacts">Контакты</a></li>
+            </ul>
+            <a href="tel:+7999999999" class="header__phone phone-btn">+7(999)990-09-99</a>
+             <button class="header__burger burger btn-reset" aria-label="menu" data-popup = "popup-menu">
+                <span class="burger__line"></span>
+            </button>
+        </div>
+       
+    </div>
+</header>
+        <main>
+            <section class="first">
+   <div class="container first__container">   
+        <div class="first__info">
+            <p class="first__descr">От японского мастера</p>
+            <h1 class="first__title">Лучшие суши в Чебоксарах</h1>
+            <button class="btn  btn-reset first__btn" data-scroll-to = "products" type="button">Выбрать</button>
+        </div>
+   </div>
+</section>
+            <section class="category">
+    <div class="container">
+        <h2 class="category__title section-title">Категории</h2>
+        <div class="category__grid">
+            <a href="#" class="category__item category__item-1 ">
+                <h3 class="category__name">Чикен</h3>
+            </a><a href="#" class="category__item category__item-2">
+                <h3 class="category__name">С угрем</h3>
+            </a><a href="#" class="category__item category__item-3">
+                <h3 class="category__name">Корн дог</h3>
+            </a><a href="#" class="category__item category__item-4">
+                <h3 class="category__name">Пицца</h3>
+            </a><a href="#" class="category__item category__item-5 ">
+                <h3 class="category__name">Акции</h3>
+            </a>
+        </div>
+    </div>
+</section>
+            <section class="products" >
+    <div class="container">
+        <h2 class="products__title section-title">Меню</h2>
+        <nav class="products__nav">
+            <ul class="products__list">
+                <li class="products__li">
+                    <button class="products__btn btn-reset is--active" data-filter="all" type="button">Все</button>
+                </li>
+                <li class="products__li">
+                    <button class="products__btn btn-reset" data-filter="roll" type="button">Роллы</button>
+                </li>
+                <li class="products__li">
+                    <button class="products__btn btn-reset" data-filter="gukan" type="button">Гуканы</button>
+                </li>
+                <li class="products__li">
+                    <button class="products__btn btn-reset" data-filter="pizza" type="button">Пицца</button>
+                </li>
+            </ul>
+        </nav>
+       
+        <div class="products__container">        
+            <div class="products__items">
+                
+            </div>
+            <div class="products__cart">      
+					<div class="card-body">
+						<h5 class="card__title">Ваш заказ</h5>
+						<div data-cart-empty class="alert alert-secondary" role="alert">
+							Корзина пуста
+						</div>
+					
+						<div class="cart-wrapper">
+						</div>
+					
+						<div class="cart-block">
+							<p data-cart-delivery class="none">
+								<span class="cart__delivery">Доставка:</span> 
+								<span class="delivery-cost free">250 ₽</span><br>
+								<small class="small">Бесплатная доставка от  600 ₽</small>
+							 </p>
+							<p class="cart__total">
+								<span >Итого:</span> 
+								<span class="total-price">0</span> 
+								<span class="rouble">₽</span>
+							</p>
+						</div>
+					</div>				
+					<div id="order-form" class="card-body border-top none">				
+						<button type="submit" class="btn btn-block btn-outline-warning order" data-popup = "popup-order">Оформить заказ</button>
+					</div>		
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="about">
+    <div class="about__img-wrapper">
+    </div>
+   
+    <div class="container about__container">
+        <div class="about__wrapper">
+            <h2 class="about__title section-title">О нас</h2>
+            <p class="about__descr">Доставим вам роллы в течении часа или получите их бесплатно. Мы готовим суши только из свежих продуктов. Каждый день Мы покупаем свежую рыбу, овощи и рис.</p>
+        </div>
+    </div>
+</section>
+            <section class="contacts">
+  <div class="container">
+    <h2 class="section-title">Контакты</h2>
+    <div class="contacts__container">
+      <div class="contacts__start">
+        <div class="contacts__map">      
+            <div id="map"></div>       
+        </div>
+      </div>
+      <div class="contacts__info">
+        <div class="contacts__item">
+          <h3 class="contacts__title">Адрес</h3>
+          <p class="contacts__descr " id="myadress">
+            Чебоксары, Московский проспект, дом 46
+          </p>
+        </div>
+        <div class="contacts__item">
+          <h3 class="contacts__title">Телефон</h3>
+          <a href="tel:+999999999" class="contacts__phone">+7(999)999-99-88</a>
+        </div>
+        <div class="contacts__item">
+          <h3 class="contacts__title">Социальные сети</h3>
+          <ul class="social__list">
+            <li class="social__item">
+              <a href="#" target="_blank" class="social__link social__link--vk">
+              </a>
+            </li>
+            
+            <li class="social__item">
+              <a
+                href="#"
+                target="_blank"
+                class="social__link social__link--inst"
+                >
+                </a>
+            </li>
+            
+            <li class="social__item">
+              <a href="#" target="_blank" class="social__link social__link--fb"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        </main>
+        <footer class="footer">     
+        <div class="container footer__container flex">
+            <small class="footer__copy">
+                © 2022 SushiYshi
+            </small>
+            <ul class="footer__links">
+                <li class="footer__links-item"><a href="#" class="footer__link">Terms of Service</a></li>
+                <li class="footer__links-item"><a href="#" class="footer__link">Privacy Policy</a></li>
+            </ul>
+        </div>
+</footer>
+    </div>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=74d7086c-14b2-44bc-826c-7aae7d3e496f&lang=ru_RU" type="text/javascript"></script>
+    <script src="/js/main.js"></script>
+    <!-- <script src="/js/script.js"></script> -->
+    
+</body>
+</html>
