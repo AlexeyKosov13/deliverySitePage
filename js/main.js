@@ -263,7 +263,7 @@ let cart = [];
     const cartItemHTML = `
             <div class="cart-item order__item" data-category="${item.data}" data-id="${item.id}">
                     <div class="cart-item__img order__img">
-                        <img src="../img/roll/${item.imgSrc}" alt="${item.title}">
+                        <img src="img/roll/${item.imgSrc}" alt="${item.title}">
                     </div>
                     <div class="cart-item__desc order__descr">
                         <div class="cart-item__title">${item.title}</div>
@@ -415,7 +415,7 @@ window.addEventListener("click", function (event) {
             <div class="cart-item" data-id="${item.id}">
                 <div class="cart-item__top">
                     <div class="cart-item__img">
-                        <img src="../img/roll/${item.imgSrc}" alt="${item.title}">
+                        <img src="img/roll/${item.imgSrc}" alt="${item.title}">
                     </div>
                     <div class="cart-item__desc">
                         <div class="cart-item__title">${item.title}</div>
