@@ -919,7 +919,7 @@ input[type=search]::-webkit-search-results-decoration {
   height: 100vh;
   min-height: 660px;
   padding: 170px 0 100px;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../../img/first-bg.jpg");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../img/first-bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1001,25 +1001,25 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .category__item-1 {
-  background-image: url("../../img/chiken.jpg");
+  background-image: url("../img/chiken.jpg");
   grid-column-end: span 2;
 }
 
 .category__item-2 {
-  background-image: url("../../img/coal.jpg");
+  background-image: url("../img/coal.jpg");
 }
 
 .category__item-3 {
-  background-image: url("../../img/carn.jpg");
+  background-image: url("../img/carn.jpg");
 }
 
 .category__item-4 {
-  background-image: url("../../img/pizza.jpg");
+  background-image: url("../img/pizza.jpg");
   grid-column-end: span 2;
 }
 
 .category__item-5 {
-  background-image: url("../../img/fish.jpg");
+  background-image: url("../img/fish.jpg");
   grid-column-end: span 2;
 }
 
@@ -1343,7 +1343,7 @@ input[type=search]::-webkit-search-results-decoration {
   width: 50%;
   height: 100%;
   object-fit: cover;
-  background: linear-gradient(rgba(34, 32, 32, 0.8), rgba(0, 0, 0, 0.5)), url("/img/about-bg.jpg");
+  background: linear-gradient(rgba(34, 32, 32, 0.8), rgba(0, 0, 0, 0.5)), url("../img/about-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -1391,7 +1391,7 @@ input[type=search]::-webkit-search-results-decoration {
   z-index: -1;
   right: -50px;
   bottom: -50px;
-  background-image: url("../../img/contacts-bg.png");
+  background-image: url("../img/contacts-bg.png");
   background-repeat: no-repeat;
 }
 
@@ -1443,15 +1443,15 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .social__link--inst {
-  background-image: url(../../img/social/instagram.svg);
+  background-image: url("../img/social/instagram.svg");
 }
 
 .social__link--fb {
-  background-image: url(../../img/social/fb.svg);
+  background-image: url("../img/social/fb.svg");
 }
 
 .social__link--vk {
-  background-image: url(../../img/social/vk.svg);
+  background-image: url("../img/social/vk.svg");
 }
 
 #map {
