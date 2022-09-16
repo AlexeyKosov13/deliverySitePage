@@ -501,7 +501,7 @@ window.addEventListener("click", function (event) {
         },
         {
           iconLayout: "default#image",
-          iconImageHref: "../img/icon.svg",
+          iconImageHref: "img/icon.svg",
           iconImageSize: [40, 52],
           iconImageOffset: [-5, -38],
         },
